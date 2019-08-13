@@ -62,6 +62,6 @@ deploy:
     - internal/docker-push:
         username: $DOCKER_USERNAME
         password: $DOCKER_PASSWORD
-        cmd: pipeline
+        cmd: /pipeline/source/pipeline
         tag: latest
         repository: soundrussian/pipeline
